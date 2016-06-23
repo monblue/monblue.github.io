@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '뇌내혁명'
+title: 'A GREAT REVOLUTION IN THE BRAN-WORLD 1'
 date: 2016-06-23 20:14:54
 categories: 'BOOK'
 ---
