@@ -15,7 +15,9 @@ categories: 'IT'
 - url: [excel2json](https://github.com/coolengineer/excel2json)
 - 엑셀 파일 생성 및 편집
 
-![My helpful screenshot]({{ site.url }}/static/img/logo-2x.png)
+![image1]({{ site.url }}/static/img/logo-2x.png)
+
+![image2](/static/img/logo-2x.png)
 
 ## 설치법
 
