@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '개발가이드_json'
+title: '개발가이드_exel2json'
 date: 2015-01-09 10:10:10
 tags: 
 - 'IT'
@@ -11,21 +11,15 @@ categories: 'IT'
 * content
 {:toc}
 
-## json
+## 개요
+- url: [excel2json](https://github.com/coolengineer/excel2json)
+- 엑셀 파일 생성 및 편집
 
+## 설치법
 
-### exel2json
-- [excel2json](https://github.com/coolengineer/excel2json)
-
-#### 설치
-
-#### 사용
-##### 엑셀 파일 생성 및 편집
-#USAGE#
-
-## ADD SOME HINTS TO YOUR EXCEL FILE FOR JSON ##
-
-There are four types of object, which can be handled by this script.
+## 사용법
+- ADD SOME HINTS TO YOUR EXCEL FILE FOR JSON ##
+- There are four types of object, which can be handled by this script.
 
 ### Simple Object ###
 
@@ -118,7 +112,7 @@ This type of object has nested value as an array, see this example!
 As you can see, the suffix of #reqcoins is "{[]}", this gives hints for constructing vertical array.
 The result is
 
-<pre>
+```json
 {
     "reqcoins" : {
         "barrack" : [100, 500, 1000, 1500 ],
@@ -126,7 +120,7 @@ The result is
         "gas"  : [ 100, 500, 1000 ]
     }
 }
-</pre>
+```
 
 ### Object Array ###
 
@@ -142,7 +136,7 @@ The last format of compound data is an array which contains objects, the suffix 
 
 And this yields
 
-<pre>
+```json
 {
     "shop" : [
         {
@@ -162,7 +156,7 @@ And this yields
         }
     ]
 }
-</pre>
+```
 
 ### Array Value (Tip) ###
 
@@ -179,7 +173,7 @@ Magic field suffix "[]" of object description line introduce array value.
 The "attrib[]" field name terminates with "[]", which indicates attrib key has
 array value. so, the result will be like this.
 
-<pre>
+```json
 {
     "inventory" : [
         {
@@ -199,7 +193,7 @@ array value. so, the result will be like this.
         }
     ]
 }
-</pre>
+```
 
 
 
@@ -211,13 +205,9 @@ You can insert '!' mark before a sheet name which will not be considered to be p
 
 
 
-##### 실행 
-".js" extension files are associated with WSCRIPT.EXE (Windows already has this program!),
-you can easily run the script by double click!
-
-You may also make your own start script, like an 'excel2json.bat' with which you can run the script
-specifying excel files and output folder name as the arguments.
-
+## 실행 
+- ".js" extension files are associated with WSCRIPT.EXE (Windows already has this program!), you can easily run the script by double click!
+- You may also make your own start script, like an 'excel2json.bat' with which you can run the script specifying excel files and output folder name as the arguments.
 
 ```bash
 D:\mH\_utils\excel2json> WSCRIPT.EXE Excel2Json.js file1.xlsx file2.xlsx product
@@ -228,7 +218,8 @@ D:\mH\_utils\excel2json> WSCRIPT.EXE Excel2Json.js file1.xlsx file2.xlsx product
 - file1.xlsx file2.xlsx : 변환할 엑셀 파일(복수개 가능)
 - product : 결과 json이 저장될 폴더 이름
 
-##### 참고 
+## 참고 
+
 # HOWTO-WORK #
 
 Internally, CSV format is used to parse excel files.
@@ -249,22 +240,22 @@ By running WSCRIPT.EXE Excel2Json.js file1.xlsx file2.xlsx product:
     3. And use the 'product' directory instead of 'output' for its result.
     
 
-##### json 파일 수정(by moon) : 
+### json 파일 수정(by moon) : 
 - !!!highCharts 용 json 생성 테스트
 - 원본생성: D:\mH\_utils\excel2json\growth>WSCRIPT.EXE Excel2Json.js height_male01.xlsx  json
 
 - 원본: {"height": {"3rd": [1,2,....], "5th":[3,4,5,...], ...}}
 - 목표: [{"name":"3rd", "data":[1,2,...]}, {"name":"5th", "data":[3,4,5,...]}, …]
 
-##### sublime text : macro기능을 사용하려 했으나 복잡함 -> nodejs 이용
-##### 파일 변환(node command line)
+- sublime text : macro기능을 사용하려 했으나 복잡함 -> nodejs 이용
+
+### 파일 변환(node command line)
 
 ```bash
 D:\mH\_utils\excel2json\growth\json>copy height_male01.json D:\mH\app\_test\height_male01.json
 D:\mH\app\_test>node replace.js height_male01.json replace1.json height_male01_.json
 ```
 - replace1.json : !!!변환 map json
-
 
 
 ### mongodb import
@@ -276,10 +267,9 @@ mongoimport --db mHdb --collection growth_height_male --file D:\mH\_utils\excel2
 
 
 
-
-
 ======================
 1. excel2json
+
 ```bash
 D:\mH\_utils\excel2json\growth>WSCRIPT.EXE Excel2Json.js  growth_height1.xlsx  growth_weight1.xlsx json
 
@@ -287,7 +277,9 @@ D:\mH\_utils\excel2json\growth>copy .\json\growth_height1.json D:\mH\app\_test\g
 
 D:\mH\_utils\excel2json\growth>copy .\json\growth_weight1.json D:\mH\app\_test\growth_weight1.json
 ```
+
 2. json 교정
+
 ```bash
 D:\mH\app\_test>node replace.js growth_height1.json replaceGrowth1.json growth_height1_.json
 
@@ -297,10 +289,10 @@ D:\mH\app\_test>node replace.js growth_weight1_.json replaceGrowth_weight.json g
 ```
 
 3. mongodb import
+
 ```bash
 D:\mongoDB\bin>mongoimport --db mHdb --collection growth_all_full --file D:\mH\app\_test\growth_height1_.json
 D:\mongoDB\bin>mongoimport --db mHdb --collection growth_all_full --file D:\mH\app\_test\growth_weight1_.json
-
 
 D:\mongoDB\bin>mongo
 MongoDB shell version: 2.4.9
@@ -308,7 +300,6 @@ connecting to: test
 > use mHdb
 switched to db mHdb
 > db.growth_all_full.find({});
-
 
 db.growth_all_full.find({"type":"height","sex":"male"});
 
@@ -322,7 +313,6 @@ db.growth_all_full.find({"type":"height","sex":"male","data.month":198.5}, {_id:
 
 { "data" : [    {       "month" : 198.5,        "3rd" : 160.87,         "5th" : 162.31,         "10th" : 164.49,        "25th" : 168.05,        "50th" : 171.87,
         "75th" : 175.57,        "90th" : 178.8,         "95th" : 180.69,        "97th" : 181.91 } ] }
-
 
 > db.growth_all_full.find({"type":"height","sex":"male","data.month":{$lt:6, $gt:4}}, {_id: 0, 'data.$': 1})
 ```
