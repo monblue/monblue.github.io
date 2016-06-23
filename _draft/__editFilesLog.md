@@ -37,8 +37,8 @@
 ---
 layout: page
 title: 'A GREAT REVOLUTION IN THE BRAN-WORLD 1'
-date: 2016-06-23 20:14:54
-categories: 'BOOK'
+date: 2016-06-22 20:14:54
+categories: 'book'
 ---
 
 * content
