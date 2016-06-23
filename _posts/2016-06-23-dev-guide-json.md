@@ -11,8 +11,6 @@ categories: 'IT'
 * content
 {:toc}
 
-# All my projects
-
 ## json
 
 
