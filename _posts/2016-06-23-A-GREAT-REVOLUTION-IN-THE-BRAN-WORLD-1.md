@@ -1,10 +1,13 @@
 ---
-layout: post
-title:  "hello jekyll!"
-date:   2015-02-10 15:14:54
-categories: jekyll
-comments: true
+layout: page
+title: '뇌내혁명'
+date: 2016-06-23 20:14:54
+categories: 'BOOK'
 ---
+
+* content
+{:toc}
+
 # 腦內革命  
 -『腦內革命』 春山茂雄 著  
 - 하루야마 시게오/반광식  
