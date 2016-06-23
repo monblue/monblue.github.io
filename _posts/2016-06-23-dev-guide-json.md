@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: '개발가이드_json'
 date: 2015-01-09 10:10:10
 tags: 
