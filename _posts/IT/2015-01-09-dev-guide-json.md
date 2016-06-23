@@ -220,7 +220,7 @@ D:\mH\_utils\excel2json> WSCRIPT.EXE Excel2Json.js file1.xlsx file2.xlsx product
 
 ## 참고 
 
-# HOWTO-WORK #
+### HOWTO-WORK
 
 Internally, CSV format is used to parse excel files.
 
@@ -240,7 +240,7 @@ By running WSCRIPT.EXE Excel2Json.js file1.xlsx file2.xlsx product:
     3. And use the 'product' directory instead of 'output' for its result.
     
 
-### json 파일 수정(by moon) : 
+### json 파일 수정(by moon)
 - !!!highCharts 용 json 생성 테스트
 - 원본생성: D:\mH\_utils\excel2json\growth>WSCRIPT.EXE Excel2Json.js height_male01.xlsx  json
 
@@ -267,7 +267,6 @@ mongoimport --db mHdb --collection growth_height_male --file D:\mH\_utils\excel2
 
 
 
-======================
 1. excel2json
 
 ```bash
@@ -307,7 +306,9 @@ db.growth_all_full.find({"type":"height","sex":"male","data.month":198.5}, {_id:
 
 ```
 
-### find subdocument (month가 198.5 인 data만 출력) @@@@@
+### find subdocumen
+- month가 198.5 인 data만 출력 @@@@@
+
 ```bash
 > db.growth_all_full.find({"type":"height","sex":"male","data.month":198.5}, {_id: 0, 'data.$': 1})
 
