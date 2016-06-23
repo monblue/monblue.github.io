@@ -50,14 +50,14 @@ And, Let's give a hint for the script, which awares A Column's '#' mark.
 
 In the above example, you can get this JSON file
 
-<pre>
+```json
 {
     "initdata" : {
         "coins" : 1000,
         "golds" : 0
     }
 }
-</pre>
+```
 
 ### Objects in Object ###
 Above example explains plain value object, now if you want an object which
@@ -74,7 +74,8 @@ has objects as the key/value pairs, you can use "{{}}" suffix instead of "{}"
 | 7 |                |  townhall  |  black  |   200   |     200       |
 
 And, this yields
-<pre>
+
+```json
 {
     "buildings" : {
         "barrack" : {
@@ -99,7 +100,7 @@ And, this yields
         }
     }
 }           
-</pre>
+```
 
 ### Arrays in Object ###
 
