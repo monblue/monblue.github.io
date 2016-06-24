@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'A GREAT REVOLUTION IN THE BRAN-WORLD 1'
+title: 'MAN DONGUIBOGAM'
 date: 2016-06-24 08:14:54
 categories: 'book'
 ---
