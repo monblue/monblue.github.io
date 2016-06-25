@@ -7,6 +7,8 @@
 2. txt 교정
 1) app 이용
 2) sublimetext 이용
+- '<'	'〈'
+- '>'	'〉'
 
 3. txt -> md
 1) 페이지 표시 없애기 (#001, ...)
@@ -48,8 +50,8 @@
 - 추가
 ---
 layout: page
-title: 'A GREAT REVOLUTION IN THE BRAN-WORLD 1'
-date: 2016-06-22 20:14:54
+title: 'MAN DONGUIBOGAM'
+date: 2016-06-23 20:14:54
 categories: 'book'
 ---
 
@@ -64,12 +66,25 @@ categories: 'book'
 2)
 
 3) txt -> md
-- '\n`\d\d\d\n'	''
-- '\|'	'\n'
-- '\n'	'  \n'
 - '0갤'	'\n# '
 - '1갤'	'\n## '
 - '2갤'	'\n### '
 - '3갤'	'\n#### '
 - '4갤'	'\n##### '
-- '\[그\]'	'[그]  \n'
+- '5갤'	'\n###### '
+- '\n`\d\d\d\n'	''
+- '\|'	'\n'
+- '\n#'	'\n\n#'
+- '\n\n\n'	'\n\n'
+- '\n'	'  \n'
+
+
+<pre 	\n<pre
+\n\n<pre   \n<pre
+
+<\/pre>	</pre>\n
+</pre>\n\n\n </pre>\n\n
+
+
+<pre class="note">
+<h6 class="note_title">
