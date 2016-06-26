@@ -50,7 +50,7 @@
 - 추가
 ---
 layout: page
-title: 'MAN DONGUIBOGAM'
+title: '남성 동의보감'
 date: 2016-06-23 20:14:54
 categories: 'book'
 ---
@@ -66,28 +66,52 @@ categories: 'book'
 2)
 
 3) txt -> md
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-MAN-DONGUIBOGAM.txt D:\dev\blog\monblue.github.io\_draft\rep\r_MAN-DONGUIBOGAM.txt
+
+\r\n	힣
+\|	힣
+힣`\d\d\d\r힣7갤@	
+7갤(.+)	<pre class="note warning">힣$1힣</pre>
+힣`\d\d\d힣	
+`\d\d\d	
+0갤	힣# 
+1갤	힣## 
+2갤	힣### 
+3갤	힣#### 
+4갤	힣##### 
+힣{2,}#	힣힣#
+힣?<pre	힣<pre
+힣?<\/pre>힣?	힣</pre>힣
+힣{3,}	힣힣
+힣	  힣
+>  힣	>힣
+  힣<	힣<
+# ([^힣]+)  힣	# $1힣
+
+
+- '\n`\d\d\d\n7갤@'	''
+- '7갤(.+)'	'<pre class="note warning">\n\1\n</pre>'
+@@@바지락조청
+- '\n`\d\d\d\n'	''
+- '\|'	'\n'
 - '0갤'	'\n# '
 - '1갤'	'\n## '
 - '2갤'	'\n### '
 - '3갤'	'\n#### '
 - '4갤'	'\n##### '
-- '5갤'	'\n###### '
-- '\n`\d\d\d\n'	''
-- '\|'	'\n'
+
 - '\n#'	'\n\n#'
+- '<pre' 	'\n<pre'
+- '<\/pre>'	'\n</pre>\n'
 - '\n\n\n'	'\n\n'
 - '\n'	'  \n'
 
 
-<pre 	\n<pre
-\n\n<pre   \n<pre
 
-<\/pre>	</pre>\n
-</pre>\n\n\n </pre>\n\n
-
-'  <'	'<'
-'>  '	'>'
+- '  \n<'	'\n<'
+- '  \n\n<'	'\n<'
+- '>  '	'>'
 
 
-<pre class="note">
-<h6 class="note_title">
+
+
