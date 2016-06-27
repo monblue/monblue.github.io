@@ -236,3 +236,24 @@ categories: 'book'
 
 * content
 {:toc}
+
+
+9. 2016-06-24-Clinical-Important-Medicine.txt
+圖說 韓方診療要方
+
+0) hwp(2016-06-24-Illustrated-Clinical-Take-Acupoint_O.txt) -> txt
+- 표를문자열로 매크로 실행
+- 그림위치삽입 매크로 실행
+
+1) txt -> md
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-Clinical-Important-Medicine.txt D:\dev\blog\monblue.github.io\_draft\rep\r_Clinical-Important-Medicine.txt.txt
+
+---
+layout: page
+title: '도설한방진료요방'
+date: 2016-06-24 20:14:54
+categories: 'book'
+---
+
+* content
+{:toc}
