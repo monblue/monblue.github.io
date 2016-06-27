@@ -4,6 +4,17 @@
 2) 이미지
 3) 표
 
+
+hwp 주석 옮기기
+0) 문서 시작에서 출발
+1) alt + G (찾아가기 ‘각주’로 설정해두고 시작)
+2) enter
+3) shift + ‘->’
+4) ctr + ‘x’
+5) ‘->’
+6) ctr + v
+
+
 2. txt 교정
 1) app 이용
 2) sublimetext 이용
@@ -66,6 +77,9 @@ categories: 'book'
 2)
 
 3) txt -> md
+\n([^ ]+) (.+)	\n`\1` \2
+
+
 node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-MAN-DONGUIBOGAM.txt D:\dev\blog\monblue.github.io\_draft\rep\r_MAN-DONGUIBOGAM.txt
 
 \r\n	힣
@@ -115,3 +129,110 @@ node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\tx
 
 
 
+3. 2016-06-24-NEW-CLINICAL-KOREAN-MEDICINE
+최신임상한방의학_미즈노슈이치
+
+
+
+4. 2016-06-24-VISCERA-PATTERN-REMEDY
+장부변증논치
+1) txt 수정
+(1) 표 넣기
+
+1) txt -> md
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-VISCERA-PATTERN-REMEDY.txt D:\dev\blog\monblue.github.io\_draft\rep\r_VISCERA-PATTERN-REMEDY.txt
+
+
+---
+layout: page
+title: '장부변증논치(臟腑辨證論治)'
+date: 2016-06-24 20:14:54
+categories: 'book'
+---
+
+* content
+{:toc}
+
+
+
+
+
+5. 2016-06-24-DONGUIBOGAM.txt
+동의보감_법인
+1) json -> txt
+(0)
+{주} -> _주_
+{}
+
+(1) 중복 개요 없애기
+- "_o"	\t"_o"
+- 엑셀 작업: 중복셀비우기1.xlsm 에서 중복셀 없애기
+- '\t'	''	
+
+(2) 주석 분리
+- '\,\{"n"([^\}]+)\}'	'``\n\,\{"n"\1\}\n'
+- 엑셀 작업: 
+ 데이터 정렬 후 주석[",{"n"\1},"로 시작] 추출 따로 보관(원래 순서대로)
+ 원문만 원래 순서대로 추출
+ 주석 뒤에 있던 내용은 줄바꿈 없애기: '^\{"'	'힣{"'
+		
+(3) json 태그 없애기, 주석->줗
+
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-DONGUIBOGAM.txt D:\dev\blog\monblue.github.io\_draft\rep\r_donggam.txt
+
+(4) 원문 / 해석 분리용 파일
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-DONGUIBOGAM.txt D:\dev\blog\monblue.github.io\_draft\rep\r_donggam2.txt
+
+
+6. 2016-06-24-Saam-Acupuncture-System-Essay.txt
+사암침법수상록
+
+
+1) txt -> md
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-Saam-Acupuncture-System-Essay.txt D:\dev\blog\monblue.github.io\_draft\rep\r_Saam-Acupuncture-System-Essay.txt
+
+
+---
+layout: page
+title: '사암침법수상록(舍岩鍼法隨想錄)'
+date: 2016-06-24 20:14:54
+categories: 'book'
+---
+
+* content
+{:toc}
+
+
+7. 2016-06-24-Actual-Saam-Acupuncture.txt
+김관우 원장의 실전사암침법
+1) txt -> md
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-Actual-Saam-Acupuncture.txt D:\dev\blog\monblue.github.io\_draft\rep\r_Actual-Saam-Acupuncture.txt
+
+---
+layout: page
+title: '김관우 원장의 실전사암침법'
+date: 2016-06-24 20:14:54
+categories: 'book'
+---
+
+* content
+{:toc}
+
+
+8. 2016-06-24-Illustrated-Clinical-Take-Acupoint.txt
+도해임상취혈
+0) hwp(2016-06-24-Illustrated-Clinical-Take-Acupoint_O.txt) -> txt
+- 그림위치삽입 매크로 실행
+
+1) txt -> md
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-Illustrated-Clinical-Take-Acupoint.txt D:\dev\blog\monblue.github.io\_draft\rep\r_Illustrated-Clinical-Take-Acupoint.txt
+
+---
+layout: page
+title: '도해임상취혈'
+date: 2016-06-24 20:14:54
+categories: 'book'
+---
+
+* content
+{:toc}
