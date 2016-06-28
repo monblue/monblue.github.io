@@ -246,7 +246,7 @@ categories: 'book'
 - 그림위치삽입 매크로 실행
 
 1) txt -> md
-node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-Clinical-Important-Medicine.txt D:\dev\blog\monblue.github.io\_draft\rep\r_Clinical-Important-Medicine.txt.txt
+node D:\dev\apps\_myApps\replaceBook.js  D:\dev\blog\monblue.github.io\_draft\txt\2016-06-24-Clinical-Important-Medicine.txt D:\dev\blog\monblue.github.io\_draft\rep\r_Clinical-Important-Medicine.txt
 
 ---
 layout: page
@@ -257,3 +257,14 @@ categories: 'book'
 
 * content
 {:toc}
+
+
+
+
+'\{\{\*(\d\d\d)'	'2갤{{\1
+
+
+
+
+컿S ~ 컿E : md 파일 생성시 제외
+md 항목 생성시 추가 파일

@@ -28,6 +28,11 @@ disqus_url: "http://monblue.github.io"
 # Build settings
 markdown: kramdown
 
+# toc levels (added by moon!!!)
+kramdown: 
+  toc_levels: "2,3"
+  #toc_levels: "2,3"
+
 # highlight
 highlighter: pygments
 highlighter: rouge
