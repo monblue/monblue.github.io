@@ -1,0 +1,48 @@
+{
+  "name": "Clinical-Important-Medicine",
+  "author": "",
+  "date": "2016-06-24",
+  "from": {
+  	"type": "txt",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_draft\\txt\\",
+  	"name": ""
+  },
+  "to": {
+  	"type": "md",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_posts\\",
+  	"name": ""
+  },
+  "rep": {
+  	"type": "file",
+    "path": "D:\\dev\\blog\\monblue.github.io\\_draft\\rep\\", 
+    "name": "r_Clinical-Important-Medicine.txt"
+  },
+  "note": {
+  	"mark1": "줗",
+    "mark2": "쭣",
+  	"view": 0
+  },
+  "url": {
+  	"img":  "/static/img/book/Clinical-Important-Medicine/"
+  },
+  "del": {
+  	"from": "~~~S",
+  	"to": "~~~E"
+  },
+  "header": {
+  	"view": ["layout", "title", "date", "categories"],
+    "toc": 1,
+  	"layout": "page",
+  	"title": "도설한방진료요방",
+  	"date": "2016-06-24 20:14:54",
+  	"modified": "",
+  	"categories": "book",
+  	"description": "",
+  	"tags": "['한의학', '방제']",
+  	"image": {
+  		  "feature": "",
+  		  "credit": "",
+  		  "creditlink": ""
+  	}
+  }
+}

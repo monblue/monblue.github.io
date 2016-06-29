@@ -1,3 +1,4 @@
+
 #015
 2갤자신감을 가지자
 강의를 하다보면 두 가지 Type의 질문이 있다. “여기가 맞나요?”하는 경우와, “암만 만져봐도 통 감이 안 와요……”하는 경우이다. 전자의 경우는 발전의 가능성이 농후하다. 그곳이 맞든 안 맞든, 자꾸 느껴 보려하는 타입이다. 후자의 경우는 팔짱만 끼고 과연 내가 될까 하는 경우이다. 아무래도 전자에 비해 발전이 느리게 마련이다. 剌鍼을 하고 나서도 이것이 맞게 剌鍼이 되었는지 안되었는지 영 자신이 없는 경우도 많다. 틀리면 어떤가? 시험 보는 것도 아니고……
@@ -14,7 +15,7 @@
 다음 그림은 전자가 나타날 확률이 가장 많은 곳(노란 원 내)을 나타낸 것이다.
 
 ![그림](/static/img/book/Illustrated-Clinical-Take-Acupoint/016.jpg)
-그림 1. 노란 원 안에서 나타날 확률이 99. 9%이다
+그림 1. 노란 원 안에서 나타날 확률이 99.9%이다
 
 #017
 핵을 중심으로 전자들이 분포하는데, 전자는 핵에서 가까울수록 많이 분포하게 된다. 取穴이라는 것은 마치 전자의 분포 확률이 가장 많은, 즉 핵의 주변을 찾아내는 것과 같다. 정확한 取穴은 핵을 찾는 것이지만, 그곳을 첫 번에, 당장 찾기는 어렵다. 하지만 꾸준한 연습을 한다면 점점 더 쉽게 穴을 찾을 수 있을 것이다.
@@ -4634,6 +4635,7 @@ I中風七處穴․脚氣八處穴]
 
 ![그림](/static/img/book/Illustrated-Clinical-Take-Acupoint/436_2.jpg)
 사진 2. 鳩尾에 刺鍼된 모습. 이 Model의 경우 中庭 下 1.2寸 쯤에서 좌측으로 약간 떨어져 나타나고 있다.
+
 #437
 2갤膻中
 [一名 元兒․元見 / 心包絡之募穴․八會穴(氣會)]
@@ -4819,200 +4821,203 @@ I中風七處穴․脚氣八處穴]
 사진 3. 水溝에 刺鍼된 모습
 3갤3. 參考: 鍼入三分留T呼可灸三壯風氷面腫鍼此穴卽愈 [銅人]
 
+~~~S
 __@@@주석@@@__
-骨頸: 뼈의 목 부분 Neck of Bone
-어떤 穴은 皮膚에서만, 어떤 穴들은 肌部까지, 어떤 穴들은 筋肉까지. 또 어떤 穴들은 骨까지 눌러야 한다.
-장장근건: 긴손바닥근힘줄 Palmaris longus tendon
-1st. metataTasal bone
-Neck of bone
-경골조면: 정강뼈 거친면 Tuberosity of tibia
-骨度는 穴位를 정하는 가장 기본이 되는 기준이다. 靈樞 骨度를 현대인의 骨度에 그대로 적용시킬 수 있을 지에 대해서는 논란의 여지가 있을 수 있으나 骨度分寸法에 의한 定位 방법이 성별과 연령의 제한 없이 각기 다른 體格과 體質에서도 적절하다는 연구결과가 있다. 康鎖彬 主編, 최용태, 이혜정, 임사비나 공역 [경전침구학] p.163-172
-𩩲骬: 가슴 앞의 오목한 곳에 있는 뼈. 검상돌기(Processus Xiphoideus)
-曲骨과 橫骨(치골결합상연)을 다르게 봐서 神闕에서 曲骨까지를 5寸, 橫骨까지를 5.5寸으로 보는 견해도 있다.
-제1중수골: 첫째손허리뼈 1st metacarpal bone
-骨頸: 지절골과 중수골, 중족골에서 뼈의 머리(Head)와 몸통(Body) 사이, 또는 몸통(Body)과 바닥(Base) 사이의 오목한 부분을 가리키는 뜻으로, 설명의 편의상 사용하였다.
-중수골: 손허리뼈 Metacarpal bone
-기절골: 첫마디뼈 Proximal phalanx
-중수지절관절: 손허리손가락관절 Metacarpophalangeal joint, MP joint
-기절골저: 마디뼈바닥 Base 이 phalanx
-중수골두: 손허리뼈머리 Head 이 metacarpal bone
-완관절: 손목관절 Radiocarpal joint
-요골: 노뼈 Radius
-주상골: 손배뼈 Scaphoid bone
-요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
-1)요골동맥: 노동맥 Radial artery
-2)요골원위단: 노뼈먼쪽부분 Distal part 이 radius
-1) 단모지신근건: 짧은엄지폄근힘줄 Extensor pollicis brevis tendon
-2) 장모지외전근건: 긴엄지벌림근힘줄 Abductor pollicis longus tendon
-완요골근. 위팔노근 Brachioradialis muscle
-罅: 틈 하. 갈라진 곳
-상완이두근: 위팔두갈래근 Biceps brachii
-완요골근: 위팔노근 Brachioradialis muscle
-요골동맥. 노동맥 Radial artery
-척골동맥 ; 자동맥 Ulnar artery
-요측반회동맥: 노쪽되돌이동맥 Radial recurrent artery
-쇄골: 빗장뼈 Clavicle
-오훼돌기: 부리돌기 Coracoid Process
-쇄골하와: 빗장아래오목 Infraclavicular Fossa
-액와동․정맥: 겨드랑동․정맥 Axillary artery․vein
-완신경총: 팔신경얼기 Brachial plexus
-전액선: 앞가슴과 상지가 갈라지는 곳의 위치 설정을 위한 임의의 명칭임
-本節(중수지절관절): 손허리손가락관절 Metacarpophalangeal joint
-骨頸 :지절골과 중수골, 중족골에서 뼈의 머리(Head)와 몸통(Body) 사이, 또는 몸통(Body)과 바닥(Base) 사이의 오목한 부분을 가리키는 뜻으로, 설명의 편의상 사용하였다.
-기절골체: 첫마디뼈몸통 Body 이 proximal phalanx
-제2중수골두: 둘째손허리뼈머리, Head of second metacarpal bone
-중수골저: 손허리뼈바닥 Base of metacarpal bone
-岐骨: 두 뼈가 만나는 곳, 혹은 갈라지는 곳
-배측골간근. 등즉뼈사이근 Dorsal interosseus muscle
-勞宮은 제2, 3중수골 사이에 있다고 보기도 하고, 제3, 4중수골 사이에 있다고 보기도 한다.
-장무지신근건: 긴엄지폄근힘줄 Extensor pollicis longus tendon
-단무지신근건: 짧은엄지폄근힘줄 Extensor pollicis brevis tendon
-주상골: 손배뼈 Scaphoid bone
-Snuffbox
-p.107 孔最 참고
-상완골외측상과: 위팔뼈가쪽위관절융기 Lateral epicondyle of humerus
-견봉: 봉우리 Acromion
-상완골: 위팔뼈 Humerus
-오훼돌기: 부리돌기 Coracoid process
-비익: 콧방울 Wings of nose
-비순구
-基節骨: 첫마디뼈 proximal phalanx
-발허리뼈 Metatarsal bone
-衝陽: 足跗上五寸 去陷谷二寸 骨間動脈 [大成], 在足跗上五寸 骨間動脈 去陷谷三寸 [銅人]
-족배동맥: 발등동맥 Dorsal plantar artery
-외측족근동맥: 가쪽발목동맥 Lateral tarsal artery
-장무지신근건: 긴엄지폄근힘줄, Extensor hallucis longus tendon
-장지신근건: 긴발가락폄근힘줄, Extensor digitorum longus tendon
-전경골근건: 앞정강근힘줄 Tibialis anterior tendon
-장지신근: 긴발가락폄근 Extensor digitorum longus m.
-전경골근: 앞정강근, Anterior tibial m.
-장지신근: 긴발가락폄근, Extensor digitorum longus m.
-경골: 정강배 Tibia
-비골: 종아리뼈, Fibula
-전경골근: 앞정강근, Anterior tibial m.
-장지신근: 긴발가락폄근, Extensor digitorum longus m.
-경골조면: 정강뼈거친면 Tuberosity of tibia
-전경골근: 앞정강근 Tibialis anterior m.
-장비골근: 긴종아리근 Peroneus longus m.
-비골두: 종아리뼈머리 Head of fibula
-전경골동맥: 앞정강동맥 Anterior tibial altery
-슬개인대: 무릎뼈인대 Patellar ligament
-외측광근: 가쪽넓은근 Vastus lateralis m.
-대퇴직근: 넓다리곧은근 Rectus femoris m.
-유두선: 유두를 수직으로 지나는 선
-교근: 깨물근 Masseter muscle
-기절골: 첫마디뼈 Proximal phalanx
-종자골: 종자뼈 Sesamoid bone
-무지외향근: 엄지벌림근 Abductor hallucis muscle
-內踝: 안쪽복사 Medial maileolus
-주상골조면: 발배뼈거친면 Tuberosity of navicular bone
-주상골: 발배뼈 Navicular bone
-거골: 목말뼈 Talus
-地機가 陰陵泉 下 2寸에서 나타날 수 있는 이론적 근거[金鑑]에 三陰交는 商丘上行內踝 踝尖上三寸 夾骨陷中이고, 漏谷은 三陰交上行三寸 夾骨陷中이고, 地機는 漏谷上行五寸 在膝五寸內側夾骨陷中이고 陰陵泉은 地機上行膝下 內側曲膝橫紋頭陷中이다. 즉 內踝尖 上 11寸이 地機이다. [靈樞]에 ‘內輔下廉, 下至內踝, 長一尺三寸’이라 하여 內踝에서 陰陵泉까지가 13寸이라고 하고 있다. 따라서 地機는 陰陵泉 下 2寸이 된다. 우리가 흔히 取穴하듯, 隆陵泉 下 3寸보다 1寸의 차이가 난다.
-경골내측과: 정강뼈안쪽관절융기 Medial condyle of tibia
-비복근: 장딴지근 Gastrocnemius m.
-척측수근굴근건: 자쪽손목굽힘근힘줄 Flexor carpi ulnaris tendon
-친지굴근건: 얕은손가락굽힘근힘줄 Flexor digitorum superficialil tendon
-두상골: 콩알뼈 Pisiform bone
-척골동맥: 자동맥 Ulnar artery
-척골동맥: 자동맥 Ulnar artery
-측수근굴근전: 자쪽손목굽힘근힘줄 Flexor carpi ulnaris tendon
-천지굴근건: 얕은손가락굽힘근힘줄 Flexor digitorum superficialis tendon
-척측수근굴근건: 자쪽손목굽힘근힘줄 Flexor carpi ulnaris tendon
-천지굴근건: 얕은손가락굽힘근힘줄 Flexor digitorum superficialis tendon
-상완골 내측상과: 위팔뼈 안쪽위관절융기 Medial epicondyle of humerus
-중수골: 손허리뼈 Metacarpal bone
-기절골: 첫마디뼈 Proximal phalanx
-중수지절관절: 손허리손가락관절 Metacarpophalanaljoint, MP joint
-유구골: 갈고리뼈 Hamate bone
-삼각골: 세모뼈 Triquetral bone
-두상골: 콩알뼈 Pisiform bone
-척골경상돌기: 자뼈붓돌기 Styloid process of ulna
-삼각골: 세모뼈 Triquetral bone
-회외: 뒤침 Supination. 요골과 척골이 떨어지도록 손을 뒤집는 동작
-상완골내측상과: 위팔뼈안쪽위관절융기 Medial epicondyle of humerus
-주두: 팔꿈치머리 Olecranon
-제5중족골조면: 다섯째발허리뼈거친면 Tuberosity of fifth metatarsal bone
-제5중족골조면: 다섯째발허리뼈거친면 Tuberosity of fifth metatarsal bone
-종골: 발꿈치뼈 Calcaneus
-입방골: 입방뼈 Cuboid bone
-종골: 발꿈치뼈, Calcaneus
-내번: 안쪽번짐 Inversion
-외번: 가쪽번짐 Eversion
-장비골근건: 긴종아리근힘줄, Peroneus longus tendon
-단비골근건:　짧은종아리근힘줄, Peroneus brevis tendon
-비골동맥: 종아리동맥 Peroneal artery
-단비골근: 짧은종아리근 Peroneus brevis m.
-비복근: 장딴지근 Gastrocnemius muscle
-대퇴이두근건: 넙다리두갈래근힘줄 Biceps femoris tendon
-척주기립근: 척주세움근 Erector spinae m.
-최장근: 가장긴근 Longissimus m.
-門金: 董氏鍼의 穴. 陷谷 上 5分
-주상골조면: 발배뼈거친면 Tuberosity of navicular bone
-崑崙 참고
-후경골등맥: 뒤정강동맥, Posterior tibial artery
-거골: 목말뼈, Talus
-종골: 발꿈치뼈, Calcaneus
-후경골동맥: 뒤정강동맥 Posterior tibial artery
-가자미근: Soleus muscle
-반건양근건: 딴힘줄모양근건 Semitendinosus tendon
-반막양근건: 반막모양근건 Semimembranosus tendon
-봉건근: 넙다리빗근 Satorius muscle
-천장동맥궁: 얕은손바닥동맥활 Superficial palmer arterial arch
-요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
-장장근건: 긴손바닥근힘줄 palmaris longus tendon
-요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
-장장근건: 긴손바닥근힘줄 palmaris longus tendon
-요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
-장장근건: 긴손바닥근힘줄 palmaris longus tendon
-요측수근굴근: 노쪽손목굽힘근 Flexor carpi radialis m.
-장장근: 긴손바닥근 palmaris longus m.
-상완이두근건: 위팔두갈래근 Biceps brachii tendon
-상완동맥: 위팔동맥 Brachial artery
-기절골: 첫마디뼈 Proximal phalanx
-胡丙權: 董氏五行剌絡鍼法 著者
-지신근건: 손가락폄근힘줄, Extensor digitorum ltendon
-배굴: 손목을 젖히는 것.
-회내: 엎침 Pronation
-회외: 뒤침 Supination
-주두: 팔꿈치머리 Olecranon
-장지신근건: 긴발가락폄근 Extensor digitorum longus tendon
-비골: 종아리뼈 Fibula
-경골: 정강뼈 Tibia
-비골: 종아리뼈 Fibula
-비골: 종아리뼈 Fibula
-경골: 정강뼈 Tibia
-비골: 종아리뼈 Fibula
-비골두: 종아리뼈머리 Head of the fibula
-장비골근: 긴종아리근 Peroneus longus m.
-전경골근: 앞정강근 Tibialis anterior m.
-대전자: 큰돌기, Greater trochanter
-대전자: 큰돌기, Greater trochanter
-缺盆: 쇄골상와 함중
-견갑극: 어깨뼈가시 Spine of scapular
-견봉: 봉우리 Acromion
-승모근: 등세모근 Trapezius m.
-風府: 後髮際 上 1寸
-完骨: 유양돌기(Mastiod process)후연 함요처, 入髮際 4寸
-風府: 督脈, 項後入髮際 一寸, 枕骨(Occipital protuberance)
-瘂馧後髮際 上 5分
-耳介: 귓바퀴. Auricle
-移行: Migration, Transition
-전경골근건: 앞정강근힘줄 Tibialis anterior tendon
-장무지신근건: 긴엄지폄근힘줄 Extensor hallucis longus tendon
-장지신근건: 긴발가락폄근힘줄 Extensor digitorum longus tendon
-경골내측과: 정강뼈안쪽관절융기 Medial condyle of tibia
-대퇴골내측과: 넙다리뼈안쪽관절융기 Medial condyle of femur
-반건양근건: 반힘줄모양근건 Semitendinosus tendon
-봉공근: 넙다리빗근 Sartorius muscle
-蔽骨: 검상돌기
-검상돌기: 칼돌기 Xiphoid process
-[大成]에는 妙로 되어 있다.
-동아 새한한사전, 까치 재편집 동의학사전
-枕骨: 외후두융기, External occipital protuberance
-旋毛: 가마
-인중: Philtrum. 코부터 윗입술 중앙까지 세로로 파인 홈의 해부학적 명칭
+~~~E
 
+쭣骨頸: 뼈의 목 부분 Neck of Bone
+쭣어떤 穴은 皮膚에서만, 어떤 穴들은 肌部까지, 어떤 穴들은 筋肉까지. 또 어떤 穴들은 骨까지 눌러야 한다.
+쭣장장근건: 긴손바닥근힘줄 Palmaris longus tendon
+쭣1st. metataTasal bone
+쭣Neck of bone
+쭣경골조면: 정강뼈 거친면 Tuberosity of tibia
+쭣骨度는 穴位를 정하는 가장 기본이 되는 기준이다. 靈樞 骨度를 현대인의 骨度에 그대로 적용시킬 수 있을 지에 대해서는 논란의 여지가 있을 수 있으나 骨度分寸法에 의한 定位 방법이 성별과 연령의 제한 없이 각기 다른 體格과 體質에서도 적절하다는 연구결과가 있다. 康鎖彬 主編, 최용태, 이혜정, 임사비나 공역 [경전침구학] p.163-172
+쭣𩩲骬: 가슴 앞의 오목한 곳에 있는 뼈. 검상돌기(Processus Xiphoideus)
+쭣曲骨과 橫骨(치골결합상연)을 다르게 봐서 神闕에서 曲骨까지를 5寸, 橫骨까지를 5.5寸으로 보는 견해도 있다.
+쭣제1중수골: 첫째손허리뼈 1st metacarpal bone
+쭣骨頸: 지절골과 중수골, 중족골에서 뼈의 머리(Head)와 몸통(Body) 사이, 또는 몸통(Body)과 바닥(Base) 사이의 오목한 부분을 가리키는 뜻으로, 설명의 편의상 사용하였다.
+쭣중수골: 손허리뼈 Metacarpal bone
+쭣기절골: 첫마디뼈 Proximal phalanx
+쭣중수지절관절: 손허리손가락관절 Metacarpophalangeal joint, MP joint
+쭣기절골저: 마디뼈바닥 Base 이 phalanx
+쭣중수골두: 손허리뼈머리 Head 이 metacarpal bone
+쭣완관절: 손목관절 Radiocarpal joint
+쭣요골: 노뼈 Radius
+쭣주상골: 손배뼈 Scaphoid bone
+쭣요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
+쭣요골동맥: 노동맥 Radial artery
+쭣요골원위단: 노뼈먼쪽부분 Distal part 이 radius
+쭣단모지신근건: 짧은엄지폄근힘줄 Extensor pollicis brevis tendon
+쭣장모지외전근건: 긴엄지벌림근힘줄 Abductor pollicis longus tendon
+쭣완요골근. 위팔노근 Brachioradialis muscle
+쭣罅: 틈 하. 갈라진 곳
+쭣상완이두근: 위팔두갈래근 Biceps brachii
+쭣완요골근: 위팔노근 Brachioradialis muscle
+쭣요골동맥. 노동맥 Radial artery
+쭣척골동맥 ; 자동맥 Ulnar artery
+쭣요측반회동맥: 노쪽되돌이동맥 Radial recurrent artery
+쭣쇄골: 빗장뼈 Clavicle
+쭣오훼돌기: 부리돌기 Coracoid Process
+쭣쇄골하와: 빗장아래오목 Infraclavicular Fossa
+쭣액와동․정맥: 겨드랑동․정맥 Axillary artery․vein
+쭣완신경총: 팔신경얼기 Brachial plexus
+쭣전액선: 앞가슴과 상지가 갈라지는 곳의 위치 설정을 위한 임의의 명칭임
+쭣本節(중수지절관절): 손허리손가락관절 Metacarpophalangeal joint
+쭣骨頸 :지절골과 중수골, 중족골에서 뼈의 머리(Head)와 몸통(Body) 사이, 또는 몸통(Body)과 바닥(Base) 사이의 오목한 부분을 가리키는 뜻으로, 설명의 편의상 사용하였다.
+쭣기절골체: 첫마디뼈몸통 Body 이 proximal phalanx
+쭣제2중수골두: 둘째손허리뼈머리, Head of second metacarpal bone
+쭣중수골저: 손허리뼈바닥 Base of metacarpal bone
+쭣岐骨: 두 뼈가 만나는 곳, 혹은 갈라지는 곳
+쭣배측골간근. 등즉뼈사이근 Dorsal interosseus muscle
+쭣勞宮은 제2, 3중수골 사이에 있다고 보기도 하고, 제3, 4중수골 사이에 있다고 보기도 한다.
+쭣장무지신근건: 긴엄지폄근힘줄 Extensor pollicis longus tendon
+쭣단무지신근건: 짧은엄지폄근힘줄 Extensor pollicis brevis tendon
+쭣주상골: 손배뼈 Scaphoid bone
+쭣Snuffbox
+쭣p.107 孔最 참고
+쭣상완골외측상과: 위팔뼈가쪽위관절융기 Lateral epicondyle of humerus
+쭣견봉: 봉우리 Acromion
+쭣상완골: 위팔뼈 Humerus
+쭣오훼돌기: 부리돌기 Coracoid process
+쭣비익: 콧방울 Wings of nose
+쭣비순구
+쭣基節骨: 첫마디뼈 proximal phalanx
+쭣발허리뼈 Metatarsal bone
+쭣衝陽: 足跗上五寸 去陷谷二寸 骨間動脈 [大成], 在足跗上五寸 骨間動脈 去陷谷三寸 [銅人]
+쭣족배동맥: 발등동맥 Dorsal plantar artery
+쭣외측족근동맥: 가쪽발목동맥 Lateral tarsal artery
+쭣장무지신근건: 긴엄지폄근힘줄, Extensor hallucis longus tendon
+쭣장지신근건: 긴발가락폄근힘줄, Extensor digitorum longus tendon
+쭣전경골근건: 앞정강근힘줄 Tibialis anterior tendon
+쭣장지신근: 긴발가락폄근 Extensor digitorum longus m.
+쭣전경골근: 앞정강근, Anterior tibial m.
+쭣장지신근: 긴발가락폄근, Extensor digitorum longus m.
+쭣경골: 정강배 Tibia
+쭣비골: 종아리뼈, Fibula
+쭣전경골근: 앞정강근, Anterior tibial m.
+쭣장지신근: 긴발가락폄근, Extensor digitorum longus m.
+쭣경골조면: 정강뼈거친면 Tuberosity of tibia
+쭣전경골근: 앞정강근 Tibialis anterior m.
+쭣장비골근: 긴종아리근 Peroneus longus m.
+쭣비골두: 종아리뼈머리 Head of fibula
+쭣전경골동맥: 앞정강동맥 Anterior tibial altery
+쭣슬개인대: 무릎뼈인대 Patellar ligament
+쭣외측광근: 가쪽넓은근 Vastus lateralis m.
+쭣대퇴직근: 넓다리곧은근 Rectus femoris m.
+쭣유두선: 유두를 수직으로 지나는 선
+쭣교근: 깨물근 Masseter muscle
+쭣기절골: 첫마디뼈 Proximal phalanx
+쭣종자골: 종자뼈 Sesamoid bone
+쭣무지외향근: 엄지벌림근 Abductor hallucis muscle
+쭣內踝: 안쪽복사 Medial maileolus
+쭣주상골조면: 발배뼈거친면 Tuberosity of navicular bone
+쭣주상골: 발배뼈 Navicular bone
+쭣거골: 목말뼈 Talus
+쭣地機가 陰陵泉 下 2寸에서 나타날 수 있는 이론적 근거[金鑑]에 三陰交는 商丘上行內踝 踝尖上三寸 夾骨陷中이고, 漏谷은 三陰交上行三寸 夾骨陷中이고, 地機는 漏谷上行五寸 在膝五寸內側夾骨陷中이고 陰陵泉은 地機上行膝下 內側曲膝橫紋頭陷中이다. 즉 內踝尖 上 11寸이 地機이다. [靈樞]에 ‘內輔下廉, 下至內踝, 長一尺三寸’이라 하여 內踝에서 陰陵泉까지가 13寸이라고 하고 있다. 따라서 地機는 陰陵泉 下 2寸이 된다. 우리가 흔히 取穴하듯, 隆陵泉 下 3寸보다 1寸의 차이가 난다.
+쭣경골내측과: 정강뼈안쪽관절융기 Medial condyle of tibia
+쭣비복근: 장딴지근 Gastrocnemius m.
+쭣척측수근굴근건: 자쪽손목굽힘근힘줄 Flexor carpi ulnaris tendon
+쭣친지굴근건: 얕은손가락굽힘근힘줄 Flexor digitorum superficialil tendon
+쭣두상골: 콩알뼈 Pisiform bone
+쭣척골동맥: 자동맥 Ulnar artery
+쭣척골동맥: 자동맥 Ulnar artery
+쭣측수근굴근전: 자쪽손목굽힘근힘줄 Flexor carpi ulnaris tendon
+쭣천지굴근건: 얕은손가락굽힘근힘줄 Flexor digitorum superficialis tendon
+쭣척측수근굴근건: 자쪽손목굽힘근힘줄 Flexor carpi ulnaris tendon
+쭣천지굴근건: 얕은손가락굽힘근힘줄 Flexor digitorum superficialis tendon
+쭣상완골 내측상과: 위팔뼈 안쪽위관절융기 Medial epicondyle of humerus
+쭣중수골: 손허리뼈 Metacarpal bone
+쭣기절골: 첫마디뼈 Proximal phalanx
+쭣중수지절관절: 손허리손가락관절 Metacarpophalanaljoint, MP joint
+쭣유구골: 갈고리뼈 Hamate bone
+쭣삼각골: 세모뼈 Triquetral bone
+쭣두상골: 콩알뼈 Pisiform bone
+쭣척골경상돌기: 자뼈붓돌기 Styloid process of ulna
+쭣삼각골: 세모뼈 Triquetral bone
+쭣회외: 뒤침 Supination. 요골과 척골이 떨어지도록 손을 뒤집는 동작
+쭣상완골내측상과: 위팔뼈안쪽위관절융기 Medial epicondyle of humerus
+쭣주두: 팔꿈치머리 Olecranon
+쭣제5중족골조면: 다섯째발허리뼈거친면 Tuberosity of fifth metatarsal bone
+쭣제5중족골조면: 다섯째발허리뼈거친면 Tuberosity of fifth metatarsal bone
+쭣종골: 발꿈치뼈 Calcaneus
+쭣입방골: 입방뼈 Cuboid bone
+쭣종골: 발꿈치뼈, Calcaneus
+쭣내번: 안쪽번짐 Inversion
+쭣외번: 가쪽번짐 Eversion
+쭣장비골근건: 긴종아리근힘줄, Peroneus longus tendon
+쭣단비골근건:　짧은종아리근힘줄, Peroneus brevis tendon
+쭣비골동맥: 종아리동맥 Peroneal artery
+쭣단비골근: 짧은종아리근 Peroneus brevis m.
+쭣비복근: 장딴지근 Gastrocnemius muscle
+쭣대퇴이두근건: 넙다리두갈래근힘줄 Biceps femoris tendon
+쭣척주기립근: 척주세움근 Erector spinae m.
+쭣최장근: 가장긴근 Longissimus m.
+쭣門金: 董氏鍼의 穴. 陷谷 上 5分
+쭣주상골조면: 발배뼈거친면 Tuberosity of navicular bone
+쭣崑崙 참고
+쭣후경골등맥: 뒤정강동맥, Posterior tibial artery
+쭣거골: 목말뼈, Talus
+쭣종골: 발꿈치뼈, Calcaneus
+쭣후경골동맥: 뒤정강동맥 Posterior tibial artery
+쭣가자미근: Soleus muscle
+쭣반건양근건: 딴힘줄모양근건 Semitendinosus tendon
+쭣반막양근건: 반막모양근건 Semimembranosus tendon
+쭣봉건근: 넙다리빗근 Satorius muscle
+쭣천장동맥궁: 얕은손바닥동맥활 Superficial palmer arterial arch
+쭣요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
+쭣장장근건: 긴손바닥근힘줄 palmaris longus tendon
+쭣요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
+쭣장장근건: 긴손바닥근힘줄 palmaris longus tendon
+쭣요측수근굴근건: 노쪽손목굽힘근힘줄 Flexor carpi radialis tendon
+쭣장장근건: 긴손바닥근힘줄 palmaris longus tendon
+쭣요측수근굴근: 노쪽손목굽힘근 Flexor carpi radialis m.
+쭣장장근: 긴손바닥근 palmaris longus m.
+쭣상완이두근건: 위팔두갈래근 Biceps brachii tendon
+쭣상완동맥: 위팔동맥 Brachial artery
+쭣기절골: 첫마디뼈 Proximal phalanx
+쭣胡丙權: 董氏五行剌絡鍼法 著者
+쭣지신근건: 손가락폄근힘줄, Extensor digitorum ltendon
+쭣배굴: 손목을 젖히는 것.
+쭣회내: 엎침 Pronation
+쭣회외: 뒤침 Supination
+쭣주두: 팔꿈치머리 Olecranon
+쭣장지신근건: 긴발가락폄근 Extensor digitorum longus tendon
+쭣비골: 종아리뼈 Fibula
+쭣경골: 정강뼈 Tibia
+쭣비골: 종아리뼈 Fibula
+쭣비골: 종아리뼈 Fibula
+쭣경골: 정강뼈 Tibia
+쭣비골: 종아리뼈 Fibula
+쭣비골두: 종아리뼈머리 Head of the fibula
+쭣장비골근: 긴종아리근 Peroneus longus m.
+쭣전경골근: 앞정강근 Tibialis anterior m.
+쭣대전자: 큰돌기, Greater trochanter
+쭣대전자: 큰돌기, Greater trochanter
+쭣缺盆: 쇄골상와 함중
+쭣견갑극: 어깨뼈가시 Spine of scapular
+쭣견봉: 봉우리 Acromion
+쭣승모근: 등세모근 Trapezius m.
+쭣風府: 後髮際 上 1寸
+쭣完骨: 유양돌기(Mastiod process)후연 함요처, 入髮際 4寸
+쭣風府: 督脈, 項後入髮際 一寸, 枕骨(Occipital protuberance)
+쭣瘂馧後髮際 上 5分
+쭣耳介: 귓바퀴. Auricle
+쭣移行: Migration, Transition
+쭣전경골근건: 앞정강근힘줄 Tibialis anterior tendon
+쭣장무지신근건: 긴엄지폄근힘줄 Extensor hallucis longus tendon
+쭣장지신근건: 긴발가락폄근힘줄 Extensor digitorum longus tendon
+쭣경골내측과: 정강뼈안쪽관절융기 Medial condyle of tibia
+쭣대퇴골내측과: 넙다리뼈안쪽관절융기 Medial condyle of femur
+쭣반건양근건: 반힘줄모양근건 Semitendinosus tendon
+쭣봉공근: 넙다리빗근 Sartorius muscle
+쭣蔽骨: 검상돌기
+쭣검상돌기: 칼돌기 Xiphoid process
+쭣[大成]에는 妙로 되어 있다.
+쭣동아 새한한사전, 까치 재편집 동의학사전
+쭣枕骨: 외후두융기, External occipital protuberance
+쭣旋毛: 가마
+쭣인중: Philtrum. 코부터 윗입술 중앙까지 세로로 파인 홈의 해부학적 명칭
+쭣
 각주갯수: 192
 
 __@@그림@@__

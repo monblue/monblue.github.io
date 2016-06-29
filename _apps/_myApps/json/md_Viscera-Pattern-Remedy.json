@@ -1,0 +1,53 @@
+{
+  "name": "Viscera-Pattern-Remedy",
+  "author": "",
+  "date": "2016-06-24",
+  "from": {
+  	"type": "txt",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_draft\\txt\\",
+  	"name": ""
+  },
+  "to": {
+  	"type": "md",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_posts\\",
+  	"name": ""
+  },
+  "rep": {
+  	"type": "file",
+    "path": "D:\\dev\\blog\\monblue.github.io\\_draft\\rep\\", 
+    "name": "r_Viscera-Pattern-Remedy.txt"
+  },
+  "note": {
+  	"mark1": "줗",
+    "mark2": "쭣",
+  	"view": 0
+  },
+  "url": {
+  	"img":  "/static/img/book/Viscera-Pattern-Remedy/"
+  },
+  "del": {
+  	"from": "~~~S",
+  	"to": "~~~E"
+  },
+  "header": {
+  	"view": ["layout", "title", "date", "categories", "tags"],
+    "toc": 1,
+  	"layout": "page",
+  	"title": "장부변증논치",
+  	"date": "2016-06-24 20:14:54",
+  	"modified": "",
+  	"categories": "book",
+  	"description": "",
+  	"tags": "['한의학', '병리학']",
+  	"image": {
+  		  "feature": "",
+  		  "credit": "",
+  		  "creditlink": ""
+  	}
+  },
+  "split": {
+    "doit": 1,
+    "mark": "쑿",
+    "title": ["총론","각론","부론"]
+  }
+}

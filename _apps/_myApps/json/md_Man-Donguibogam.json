@@ -1,0 +1,53 @@
+{
+  "name": "Man-Donguibogam",
+  "author": "",
+  "date": "2016-06-24",
+  "from": {
+  	"type": "txt",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_draft\\txt\\",
+  	"name": ""
+  },
+  "to": {
+  	"type": "md",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_posts\\",
+  	"name": ""
+  },
+  "rep": {
+  	"type": "file",
+    "path": "D:\\dev\\blog\\monblue.github.io\\_draft\\rep\\", 
+    "name": "r_Man-Donguibogam.txt"
+  },
+  "note": {
+  	"mark1": "줗",
+    "mark2": "쭣",
+  	"view": 0
+  },
+  "url": {
+  	"img":  "/static/img/book/Man-Donguibogam/"
+  },
+  "del": {
+  	"from": "~~~S",
+  	"to": "~~~E"
+  },
+  "header": {
+  	"view": ["layout", "title", "date", "categories", "tags"],
+    "toc": 1,
+  	"layout": "page",
+  	"title": "남성 동의보감",
+  	"date": "2016-06-24 20:14:54",
+  	"modified": "",
+  	"categories": "book",
+  	"description": "신재용 원장의 생활 한의학",
+  	"tags": "['한의학', '상식']",
+  	"image": {
+  		  "feature": "",
+  		  "credit": "",
+  		  "creditlink": ""
+  	}
+  },
+  "split": {
+    "doit": 1,
+    "mark": "쑿",
+    "title": ["병을 부르는 생활습관","자각증상으로 알아보는 질환","남성 최대의 고민, 성기능과 생식기 질환","아내가 챙겨주는 스태미나 요리","건강을 지키는 동의보감 처방","질병을 예방하고 치료하는 한방요법"]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Saam-Acupuncture-System-Essay",
+  "author": "",
+  "date": "2016-06-24",
+  "from": {
+  	"type": "txt",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_draft\\txt\\",
+  	"name": ""
+  },
+  "to": {
+  	"type": "md",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_posts\\",
+  	"name": ""
+  },
+  "rep": {
+  	"type": "file",
+    "path": "D:\\dev\\blog\\monblue.github.io\\_draft\\rep\\", 
+    "name": "r_Saam-Acupuncture-System-Essay.txt"
+  },
+  "note": {
+  	"mark1": "줗",
+    "mark2": "쭣",
+  	"view": 1
+  },
+  "url": {
+  	"img":  "/static/img/book/Saam-Acupuncture-System-Essay/"
+  },
+  "del": {
+  	"from": "~~~S",
+  	"to": "~~~E"
+  },
+  "header": {
+  	"view": ["layout", "title", "date", "categories", "tags"],
+    "toc": 1,
+  	"layout": "page",
+  	"title": "사암침법수상록(舍岩鍼法隨想錄)",
+  	"date": "2016-06-24 20:14:54",
+  	"modified": "",
+  	"categories": "book",
+  	"description": "김관우 원장의 사암침에 대한 견해",
+  	"tags": "['한의학', '침구']",
+  	"image": {
+  		  "feature": "",
+  		  "credit": "",
+  		  "creditlink": ""
+  	}
+  },
+  "split": {
+    "doit": 1,
+    "mark": "쑿",
+    "title": ["總論","足太陰脾經","手少陰心經","手厥陰心包經","手少陽三焦經","手陽明大腸經","足陽明胃經","手太陰肺經","手太陽小腸經","足太陽膀胱經","足少陰腎經","足少陽膽經","足厥陰肝經"]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Illustrated-Clinical-Take-Acupoint",
+  "author": "",
+  "date": "2016-06-24",
+  "from": {
+  	"type": "txt",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_draft\\txt\\",
+  	"name": ""
+  },
+  "to": {
+  	"type": "md",
+  	"path": "D:\\dev\\blog\\monblue.github.io\\_posts\\",
+  	"name": ""
+  },
+  "rep": {
+  	"type": "file",
+    "path": "D:\\dev\\blog\\monblue.github.io\\_draft\\rep\\", 
+    "name": "r_Illustrated-Clinical-Take-Acupoint.txt"
+  },
+  "note": {
+  	"mark1": "줗",
+    "mark2": "쭣",
+  	"view": 1
+  },
+  "url": {
+  	"img":  "/static/img/book/Illustrated-Clinical-Take-Acupoint/"
+  },
+  "del": {
+  	"from": "~~~S",
+  	"to": "~~~E"
+  },
+  "header": {
+  	"view": ["layout", "title", "date", "categories", "tags"],
+    "toc": 1,
+  	"layout": "page",
+  	"title": "도해임상취혈",
+  	"date": "2016-06-24 20:14:54",
+  	"modified": "",
+  	"categories": "book",
+  	"description": "",
+  	"tags": "['한의학', '침구']",
+  	"image": {
+  		  "feature": "",
+  		  "credit": "",
+  		  "creditlink": ""
+  	}
+  },
+  "split": {
+    "doit": 0,
+    "mark": "쑿",
+    "title": [""]
+  }
+}
