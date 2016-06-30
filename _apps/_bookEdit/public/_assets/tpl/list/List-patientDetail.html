@@ -1,0 +1,31 @@
+<% var options = {"JUMIN":JUMIN, "FIRSTDATE":FIRSTDATE, "LASTDATE":LASTDATE, "PIC":PIC};
+  var out = mH_getDetailInfo(options);
+%>
+<div class="_container">
+  <div class="_head">
+  성명: <%=name%> 차트번호: <%=chartNum%> 증번호: <%=JEUNG%>
+  </div>
+  <div class="_body row">
+    <span class="col-xs-5">
+      <img src="/photo/<%=out.path%>" class="img-responsive">
+    </span>
+    <span class="col-xs-7">
+      <div>
+        생일: <%=out.birth%>
+      </div>
+      <div>
+        집전화: <%=telNum%>
+      </div>
+      <div>
+        휴대폰:
+      </div>
+      <div>
+        메모: <%=memo%>
+      </div>
+    </span>
+  </div>
+  <div class="_tail xs-12">
+    <div>주소: <%=ADDRESS%></div>
+    <div>최초: <%=out.first%>, 최종: <%=out.last%></div>
+  </div>
+</div>

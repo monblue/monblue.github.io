@@ -69,9 +69,9 @@ var doIt = function(options) {
 					//개행문자: '힣', 탭문자: '탷'
 					fs.writeFile(options.newFile, data.replace(/힣/g, "\r\n").replace(/탷/g, "\t"), function(err) {
 						if (err) {
-			    			//console.log('newFile write err!!!');
+			    			console.log('newFile write err!!!');
 			    		} else {
-							//console.log('\nwrited it!!!\n' + data);
+							console.log('\nwrited it!!!\n' + options.newFile);
 						}
 				    });
 
@@ -85,7 +85,7 @@ var doIt = function(options) {
 
 
 var options = {
-	'oldFile': opts.from.path + (opts.from.name || opts.date + '-' + opts.name) + '.' + opts.from.type,
+	'oldFile': opts.from.path + opts.name + '.' + opts.from.type,
 	'newFile': opts.to.path + (opts.to.name || opts.date + '-' + opts.name) + '.' + opts.to.type,
 	'wordsFile': opts.rep.path + opts.rep.name
 };

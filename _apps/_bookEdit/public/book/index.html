@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--
+마지막 변경 저장.복원 기능,
+특수문자 자동 escape
+-->
+<html>
+<head>
+<title>Book management</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../_assets/css/bootstrap.css" />
+<style type="text/css">
+textarea {
+   font-size: 16pt;
+   font-family: Arial;
+} 
+</style>
+</head>
+
+<body>
+<span>
+<button id="js-edit" mH-val="1">편집</button>
+<!--<button id="js-allView" mH-val="1">모두</button>-->
+</span>
+<span>
+<select id="bookName">
+  <option mH-db="bookdb" mH-coll="Pain-Free">통증없이산다</option>
+  <option mH-db="bookdb" mH-coll="Back-Sense">요통혁명</option>
+  <option mH-db="bookdb" mH-coll="Healing-Back-Pain">통증혁명</option>
+  <option mH-db="bookdb" mH-coll="New-Clinical-Korean-Medicine">최신임상한방의학</option>
+  
+</select>
+</span>
+<span>
+<button id="js-prevPage">〈</button>
+<input id="txtPage" type="text" style="width:60px" value='1'/>
+<button id="js-nextPage">〉</button>
+<button id="js-goPage" class="btn btn-default hide">페이지</button>
+<button id="js-savePage" class="btn btn-default">저장</button>
+<label>(원)</label><input id="txtPattern" type="text" style="width:120px" />
+<label>(변)</label><input id="txtReplace" type="text" style="width:120px" />
+<button id="js-replaceAll" class="btn btn-default">변환</button>
+<label for="isRegex">정규식</label><input id="isRegex" type="checkbox" checked>
+<button id="js-back">되돌림</button>[<span id="txtBack"></span>]
+</span>
+</span>
+
+<div id="searchRs">
+</div>
+<div id="bookEdit">
+<div id="pageImage" class="col-md-6">
+<img src="/photo/book/donggam/0001.jpg" width="600">
+<!--<img width="100" height="200">-->
+</div>
+<textarea id="pageText" class="col-md-6" rows="30" font-size="20pt">
+pageText
+</textarea>
+</div>
+
+<script src="../_assets/js/_lib/MH_func.js"></script>
+<script src="../_assets/js/_lib/jquery.js"></script>
+<script src="../_assets/js/_lib/underscore.js"></script>
+<script src="../_assets/js/_lib/backbone.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    $('#js-edit').on('click', function(){
+      if ($('#js-edit').attr('mH-val') == '1') {
+        $('#js-edit').attr('mH-val', '0');
+        $('#js-edit').text('원본');
+        $('#pageImage').addClass('hide');
+        $('#pageText').removeClass('hide');
+      } else {
+        $('#js-edit').attr('mH-val', '1');
+        $('#js-edit').text('편집');
+        $('#pageImage').removeClass('hide');
+        $('#pageText').addClass('hide');
+      }
+
+    });
+
+    $('#js-Allview').on('click', function(){
+      $('#pageImage').removeClass('hide');
+      $('#pageText').removeClass('hide');
+    });
+
+    $('#txtPage').on('keypress', function(e){
+      //console.log('go to page');
+      e.stopPropagation();
+
+      //if (e.keyCode == 13 && keyword) {
+      if (e.keyCode == 13) {
+        e.preventDefault();
+        //e.stopPropagation();
+        $('#js-goPage').trigger('click');
+      }
+
+    });
+
+
+    $('#js-goPage').on('click', function(){
+      var book = $('#bookName option:selected').attr('mH-coll');
+      var page = $('#txtPage').val();
+      $('#searchRs').empty();
+      viewPage(book, page);
+      $('#bookEdit').show();
+      //console.log('goPage', book, page);
+    });
+
+
+    $('#js-prevPage').on('click', function(){
+      var book = $('#bookName option:selected').attr('mH-coll');
+      var page = parseInt($('#txtPage').val()) - 1;
+
+      savePage(book, $('#txtPage').val());  //페이지 수동 편집 저장시킴
+
+      $('#txtPage').val(page);
+      $('#searchRs').empty();
+      viewPage(book, page);
+      $('#bookEdit').show();
+      //console.log('prevPage', book, page);
+    });
+
+    $('#js-nextPage').on('click', function(){
+      var book = $('#bookName option:selected').attr('mH-coll');
+      var page = parseInt($('#txtPage').val()) + 1;
+
+      savePage(book, $('#txtPage').val());  //페이지 수동 편집 저장시킴
+
+      $('#txtPage').val(page);
+      $('#searchRs').empty();
+      viewPage(book, page);
+      $('#bookEdit').show();
+      //console.log('nextPage', book, page);
+    });
+
+    $('#js-savePage').on('click', function(){
+      var book = $('#bookName option:selected').attr('mH-coll');
+      var page = $('#txtPage').val();
+      //console.log('savePage', book, page);
+      //fetchTitles(page);
+      savePage(book, page);
+
+    });
+
+    $('#isRegex').on('click', function(){
+      _changeRegex($('#isRegex').prop('checked'));
+
+    });
+
+
+    $('#js-replaceAll').on('click', function(){
+      var book = $('#bookName option:selected').attr('mH-coll');
+      //var page = $('#txtPage').val();
+      //console.log('replaceWords', book);
+      //fetchTitles(page);
+      replaceWords(book);
+
+    });
+
+    function viewPage(book, page) {
+
+      var path = '/photo/' + book + '/';
+      var imgName = path + hM_putZeros(page, 3) + '.jpg';
+      if (book == 'donggam') {
+        imgName = path + hM_putZeros(page, 4) + '.jpg';
+      }
+
+      $('#pageImage').find('img').attr('src', imgName);
+      $('#pageText').val(fetchPageContents(book, page));
+      console.log('viewPage(book, page)', book, page);
+
+    }
+
+    function savePage(book, page) {
+      var data = {"tPage":$('#pageText').val()};
+      $.ajax({
+        url: 'http://localhost:5656/savePage/' + book + '/' + page,
+        async: false,
+        type: 'POST',
+        //dataType: 'json',
+        data: data,
+        success: function(res) {
+          //console.log('res!!!!!!!!', res);
+          //rs = res;
+        }
+      });
+    }
+
+    function replaceWords(book) {
+      savePage(book, $('#txtPage').val());  //페이지 수동 편집 저장시킴
+
+      var pattern = $('#txtPattern').val();
+      var replace = $('#txtReplace').val();
+      var isRegex = 0;
+      if ($('#isRegex').prop('checked')) {
+        isRegex = 1;
+      }
+
+      var data = {"pattern":pattern, "replace":replace, "isRegex":isRegex};
+      $.ajax({
+        url: 'http://localhost:5656/replace/' + book,
+        async: false,
+        type: 'POST',
+        //dataType: 'json',
+        data: data,
+        success: function(res) {
+          //console.log('res!!!!!!!!', res);
+          //rs = res;
+          //fetchPageContents(book, $('#txtPage').val());
+          viewPage(book, $('#txtPage').val());
+          $('#txtBack').txt(pattern);
+        }
+      });
+
+    }
+
+    function fetchPageContents(book, page) {
+      var rs;
+      $.ajax({
+        url: 'http://localhost:5656/viewPage/' + book + '/' + page,
+        async: false,
+        type: 'GET',
+        //dataType: 'json',
+        //data: data,
+        success: function(res) {
+          //console.log('res!!!!!!!!', res);
+          rs = res;
+        }
+      });
+      return rs;
+    }
+
+
+    function _changeRegex(isRegex) {
+      var pattern = $('#txtPattern').val();
+      //특수문자 escape000000
+      //pat = pat.replace(/(\^|\.|\,|\(|\)|\[|\]|\$|\*|\-)/g, '\\$1');
+      var arrCharE = ['\\^', '\\.', '\\,', '\\*', '\\+', '\\-', '\\[', '\\]', '\\(', '\\)', '\\?', '\\|'];
+      var arrCharN = ['^', '.', ',', '*', '+', '-', '[', ']', '(', ')', '?', '|'];
+      if(isRegex) {
+        for (i in arrCharE) {
+          pattern = pattern.replace(arrCharE[i], arrCharN[i]);
+        }
+        $('#txtPattern').val(pattern);
+      } else {
+        for (i in arrCharE) {
+          pattern = pattern.replace(arrCharN[i], arrCharE[i]);
+        }
+        $('#txtPattern').val(pattern);
+      }
+    }
+
+  });
+
+</script>
+</body>
+</html>

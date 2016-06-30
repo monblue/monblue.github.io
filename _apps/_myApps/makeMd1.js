@@ -155,9 +155,9 @@ var _writeNewMd = function(opts) {
 	//개행문자: '힣', '끟'<-맨마지막에 바꿀 개행문자 html용(각주에 포함된 것 등), 탭문자: '탷'
 	fs.writeFile(newFile, data.replace(/힣/g, "\r\n").replace(/끟/g, "<br>\r\n").replace(/탷/g, "\t"), function(err) {
 		if (err) {
-			//console.log('newFile write err!!!');
+			console.log('newFile write err!!!');
 		} else {
-			//console.log('\nwrited it!!!\n' + data);
+			console.log('\nwrited it!!!\n' + newFile);
 		}
 	});
 }
@@ -200,7 +200,7 @@ if ( opts.split.doit ) {
 
 
 var options = {
-	'oldFile': opts.from.path + (opts.from.name || opts.date + '-' + opts.name) + '.' + opts.from.type,
+	'oldFile': opts.from.path + opts.name + '.' + opts.from.type,
 	'newFile': newFile,
 	'wordsFile': opts.rep.path + opts.rep.name
 };
