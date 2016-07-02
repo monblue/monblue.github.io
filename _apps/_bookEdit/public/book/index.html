@@ -43,6 +43,9 @@ textarea {
 <label for="isRegex">정규식</label><input id="isRegex" type="checkbox" checked>
 <button id="js-back">되돌림</button>[<span id="txtBack"></span>]
 </span>
+<span>
+<button id="js-publish" mH-val="1">md발행</button>
+</span>
 </span>
 
 <div id="searchRs">
@@ -159,6 +162,14 @@ pageText
 
     });
 
+
+    $('#js-publish').on('click', function(){
+      var book = $('#bookName option:selected').attr('mH-coll');
+      publish(book);
+    });
+
+
+
     function viewPage(book, page) {
 
       var path = '/photo/' + book + '/';
@@ -232,6 +243,20 @@ pageText
       return rs;
     }
 
+
+    function publish(book) {
+      var rs;
+      $.ajax({
+        url: 'http://localhost:5656/publish/' + book,
+        async: false,
+        type: 'GET',
+        success: function(res) {
+          //console.log('res!!!!!!!!', res);
+          rs = res;
+        }
+      });
+      return rs;
+    }
 
     function _changeRegex(isRegex) {
       var pattern = $('#txtPattern').val();
