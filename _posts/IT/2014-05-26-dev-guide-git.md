@@ -238,3 +238,174 @@ git tag v0.0.0
 ```bash
 git push mH v0.0.1
 ```
+
+
+=============================
+Generating an SSH key
+MAC WINDOWS
+SSH keys are a way to identify trusted computers without involving passwords. You can generate an SSH key and add the public key to your GitHub account by following the procedures outlined in this section.
+
+We recommend that you regularly review your SSH keys list and revoke any that haven't been used in a while.
+
+Tip: If you have GitHub for Windows installed, you can use it to clone repositories and not deal with SSH keys. It also comes with the Git Bash tool, which is the preferred way of running git commands on Windows.
+Checking for existing SSH keys
+
+Before you generate an SSH key, you can check to see if you have any existing SSH keys.
+
+Generating a new SSH key and adding it to the ssh-agent
+
+After you've checked for existing SSH keys, you can generate a new SSH key to use for authentication, then add it to the ssh-agent.
+
+Adding a new SSH key to your GitHub account
+
+To configure your GitHub account to use your new (or existing) SSH key, you'll also need to add it to your GitHub account.
+
+Testing your SSH connection
+
+After you've set up your SSH key and added it to your GitHub account, you can test your connection.
+
+
+
+
+## SSH키 생성
+
+### 기존 SSH키 확인
+- 명령프롬프트
+```bash
+ls -al ~/.ssh
+```
+- 윈도우
+> C:\Users\[사용자id]\.ssh 폴더로 이동
+> 파일 확인
+
+id_rsa / id_rsa.pub / known_hosts 파일 등이 있다면 기존 SSH키가 있는 겁니다.
+
+
+### SSH키 추가
+
+```bash
+monwa@DESKTOP-M3RQ6KV MINGW64 ~/.ssh
+$ ls
+id_rsa  id_rsa.pub  known_hosts
+
+monwa@DESKTOP-M3RQ6KV MINGW64 ~/.ssh
+$ ssh-keygen -t rsa -b 4096 -C "monwater@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/monwa/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/monwa/.ssh/id_rsa.
+Your public key has been saved in /c/Users/monwa/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Gs+TC3hjgzaKvUd04SaZ2HAtW9OnKGA8VyzqEVLKfq0 monwater@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+| o.  +..         |
+|o.B = * . .      |
+|.+ @ O + o       |
+|. + X = .        |
+| o + *. S        |
+|  o oo = .       |
+|   E= B =        |
+| o o.+ + o       |
+|. +o    .        |
++----[SHA256]-----+
+
+monwa@DESKTOP-M3RQ6KV MINGW64 ~/.ssh
+
+
+### 테스트 SSH키 연결
+
+
+
+```
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+
+ssh-keygen -t rsa -b 4096 -C "monwater@gmail.com"
+
+
+
+
+
+This problem was bugging me for quite some time. The problem is, the OpenSSH client they've compiled for Windows doesn't check the known_hosts file in ~/.ssh/known_hosts
+
+
+### error
+- Warning: Permanently added the RSA host key for IP address
+
+ssh -v git@github.com
+
+
+~/.ssh/config file and insert the line:
+
+UserKnownHostsFile ~/.ssh/known_hosts
+
+
+
+https://github.com/moonhani.github.io.git
+
+
+
+
+==========================
+깃헙(GITHUB)에 SSH 키 만들고 등록하기
+터미널에서 등록된 키를 확인한다.
+ls -al ~/.ssh
+
+id_rsa.pub 등이 있다. 없다면 만든적이 없는것 새로 만든다…
+
+아래와 같이 터미널에 입력하는데 이메일에 주의한다. 깃헙에 등록한 이메일을 사용한다.
+ssh-keygen -t rsa -C “your_email@example.com”
+ssh-keygen -t rsa -C “monwater@naver.com”
+
+비밀번호를 입력하라고 하면 비밀번호를 입력해준다.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+
+새로운 키를 에이전트에 추가한다.
+eval “$(ssh-agent -s)”
+ssh-add ~/.ssh/id_rsa
+
+새로 만든 키를 클립보드에 저장한다
+pbcopy < ~/.ssh/id_rsa.pub
+이제 준비가 되었으니 github.com 에 로그인하고 Settings에 들어가 SSH Keys 메뉴를 선택한다.
+Add 버튼을 선택한 후 클립보드에 복사된 내용을 붙여 넣는다.끝~~
+
+터미널에 입력하여 확인한다.
+ssh -T git@github.com
+다음과 같은 메세지가 나타나면 성공!!
+Hi username! You've successfully authenticated, but GitHub does not
+# provide shell access.
+
+
+============================
+Inviting collaborators to a personal repository
+You can invite users to become collaborators on your personal repository.
+
+Tip: You can grant read/write access to collaborators on a personal repository. Repositories owned by an organization can grant more granular access. For more information, see "What are the different access permissions?"
+Ask for the username of the person you're inviting as a collaborator. If they don't have a username yet, they can sign up for GitHub.
+On GitHub, navigate to the main page of the repository.
+
+Repository settings buttonUnder your repository name, click  Settings.
+
+Repository settings sidebar with Collaborators highlightedIn the left sidebar, click Collaborators.
+
+Under "Collaborators", start typing the collaborator's username.
+Collaborator list drop-down menuSelect the collaborator's username from the drop-down menu.
+Add buttonClick Add collaborator.
+
+The user will receive an email inviting them to the repository. Once they accept your invitation, they will have collaborator access to your repository.
+
+
+=============================
+https://github.com/monwater/monwater.github.io.git
+git@github.com:monwater/monwater.github.io.git
+git://github.com/monwater/monwater.github.io.git
+
+```
+git remote add origin https://github.com/monwater/monwater.github.io.git
+git pull origin master
+```

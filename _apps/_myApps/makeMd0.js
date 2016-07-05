@@ -48,7 +48,7 @@ var doIt = function(options) {
 						var note;
 						var m = data.search(opts.note.mark2);
 						note = data.substring(m, data.length);
-						data = data.substring(0, m - 2);
+						data = data.substring(0, m - 1);
 						sData = data.split(opts.split.mark);
 
 						console.log("note.length is" + note.length);					
@@ -59,14 +59,15 @@ var doIt = function(options) {
 						//var sNote = [];
 						var p = 0;
 						//var str = ["eeee222eeeee","ee111ee","ee2eee","eeeee222eee22eeee"];
-						for (var i=0;i<sData.length;i++) {
+						for (var i=0;i<options.newFile.length;i++) {
+						//for (var i=0;i<sData.length;i++) {
 							p = p + sData[i].match(new RegExp(opts.note.mark1, 'g')).length;
 
 							ePos = aPosAll[p] || note.length;
 							console.log("sData[i].length is" + sData[i].length + " sPos is " + sPos + " / ePos is "+ ePos);
 							//sNote[i] = note.substring(sPos, ePos - 2);
-							sData[i] += note.substring(sPos, ePos - 2) + '  힣';
-							sPos = ePos + 1;
+							sData[i] += '  힣힣힣'+ note.substring(sPos, ePos - 1) + '  힣';
+							sPos = ePos;
 
 						}
 

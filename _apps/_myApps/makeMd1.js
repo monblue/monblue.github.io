@@ -50,8 +50,10 @@ var doIt = function(options) {
 						note = data.substring(m, data.length);
 						data = data.substring(0, m - 2);
 						sData = data.split(opts.split.mark);
+						//var slen = sData.length;
 
-						console.log("note.length is" + note.length);					
+						console.log("note.length is" + note.length);
+						console.log("opts.split.mark" + opts.split.mark + "sData.length is" + slen);					
 						var aPosAll = _getPosition({"str": note, "mark": opts.note.mark2});
 
 						var sPos = 0;
@@ -59,14 +61,16 @@ var doIt = function(options) {
 						//var sNote = [];
 						var p = 0;
 						//var str = ["eeee222eeeee","ee111ee","ee2eee","eeeee222eee22eeee"];
-						for (var i=0;i<sData.length;i++) {
+						//for (var i=0;i<slen;i++) {
+						for (var i=0;i<options.newFile.length;i++) {
+						//for (var i=0;i<sData.length;i++) {
 							p = p + sData[i].match(new RegExp(opts.note.mark1, 'g')).length;
 
 							ePos = aPosAll[p] || note.length;
 							console.log("sData[i].length is" + sData[i].length + " sPos is " + sPos + " / ePos is "+ ePos);
 							//sNote[i] = note.substring(sPos, ePos - 2);
-							sData[i] += note.substring(sPos, ePos - 2) + '  힣';
-							sPos = ePos + 1;
+							sData[i] += '  힣힣'+ note.substring(sPos, ePos - 1) + '  힣';
+							sPos = ePos;
 
 						}
 

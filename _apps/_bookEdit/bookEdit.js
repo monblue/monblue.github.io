@@ -6,7 +6,7 @@ var REPFILE = 'D:/dev/blog/monblue.github.io/_draft/_memo/__rep.txt';
 var PUBJSDIR = 'D:/dev/blog/monblue.github.io/_apps/_myApps/'; //상수 config에 등록할 것@@@@@@@@@
 //var PUBJSDIR = 'D:\\dev\\blog\\monblue.github.io\\_apps\\_myApps\\'; //상수 config에 등록할 것@@@@@@@@@
 var PUBJSONDIR = 'json/';
-var PUBMKMD = 'makeMd1.js';
+var PUBMKMD = 'makeMd0.js';
 //var PUBJSONDIR = './json/'; //상수 config에 등록할 것@@@@@@@@@
 //var PUBJSONDIR = '.\\json\\'; //상수 config에 등록할 것@@@@@@@@@
 //>node makeMd0.js ./json/md_Healing-Back-Pain.json
