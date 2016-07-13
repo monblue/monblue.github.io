@@ -20,12 +20,19 @@ var doIt = function(options) {
 			    	console.log('wordsFile read err!!!');
 			    } else { //file 변환		    	
 			    	//data = data.replace(/\r\n/g, '');
-					data1.trim().split('\r\n').forEach(function(words){
+					//data1.trim().split('\r\n').forEach(function(words){
+					data1.split('\r\n').forEach(function(words){
 						var aWords = words.split('\t');
-						//var sOld = new RegExp(aWords[0].trim(), 'g');
 						var sOld = new RegExp(aWords[0], 'g');
-						data = data.replace(sOld, aWords[1]).replace(/\\\\/g, '\\');
-						console.log('word1:' + aWords[0] + 'word2:' + aWords[1]);
+						//console.log('word1:' + aWords[0] + 'word2:' + aWords[1]);
+						//if (data.indexOf(aWords[0]) > -1) {
+						if (data.match(sOld)) {
+							//data = data.replace(sOld, aWords[1]).replace(/\\\\/g, '\\');
+							data = data.replace(sOld, aWords[1]);
+							console.log('word1:' + aWords[0] + 'word2:' + aWords[1]);							
+						}
+						//console.log('word1:' + aWords[0] + 'word2:' + aWords[1]);
+
 					});
 
 

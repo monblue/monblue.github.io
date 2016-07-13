@@ -50,7 +50,7 @@ var doIt = function(options) {
 						note = data.substring(m, data.length);
 						data = data.substring(0, m - 2);
 						sData = data.split(opts.split.mark);
-						//var slen = sData.length;
+						var slen = sData.length;
 
 						console.log("note.length is" + note.length);
 						console.log("opts.split.mark" + opts.split.mark + "sData.length is" + slen);					
