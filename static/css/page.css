@@ -8,11 +8,12 @@ pre {
 	font-size: 16px;
 }
 
-.note {
+h2, .h2 {
     margin: 30px 0;
     margin-left: -30px;
-    padding: 20px 20px 24px;
-    padding-left: 50px;
+    _padding: 20px 20px 24px;
+    _padding-left: 50px;
+    padding: 5px 5px 6px 30px;
     -webkit-border-radius: 0 5px 5px 0;
     -moz-border-radius: 0 5px 5px 0;
     border-radius: 0 5px 5px 0;
@@ -20,16 +21,17 @@ pre {
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.3);
-    background-color: #7e6d42;
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#7e6d42), to(#5c4e35));
-    background-image: -webkit-linear-gradient(top, #7e6d42 0%, #5c4e35 100%);
-    background-image: -moz-linear-gradient(top, #7e6d42 0%, #5c4e35 100%);
-    background-image: -o-linear-gradient(top, #7e6d42 0%, #5c4e35 100%);
-    background-image: linear-gradient(to bottom, #7e6d42 0%, #5c4e35 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e6d42', endColorstr='#5c4e35',GradientType=0 );
+    background-color: #b8f08c;
 }
 
+h3, .h3 {
+    _margin: 20px 0;
+    _margin-left: -20px;
+    _margin-right: 20px;
+    padding: 3px 20px 3px 10px;
+    position: relative;
+    background-color: #ffeea8;
+}
 .case {
 	background-color: #0389aa;
 }
@@ -37,19 +39,20 @@ pre {
 
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 24px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 h4,
 .h4 {
-  font-size: 20px;
+  font-size: 18px;
+  padding: 20px 0 0 0;
 }
 h5,
 .h5 {
@@ -58,4 +61,16 @@ h5,
 h6,
 .h6 {
   font-size: 14px;
+}
+
+_img {float:right; margin:0 0 1em 1em}
+img {float:right; margin:1em;}
+
+img.alignleft{float:left; margin:0 1em;}
+img.alignright{float:right; margin:0 1em;}
+img.aligncenter{display:block;margin:0 auto}
+
+div.block {
+ display:block;
+ clear:both; 
 }

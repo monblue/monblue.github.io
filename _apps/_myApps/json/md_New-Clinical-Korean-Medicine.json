@@ -1,5 +1,5 @@
 {
-  "name": "Wolo-Saam-Acupuncture",
+  "name": "New-Clinical-Korean-Medicine",
   "author": "",
   "date": "2016-06-24",
   "from": {
@@ -15,7 +15,7 @@
   "rep": {
   	"type": "file",
     "path": "D:\\dev\\blog\\monblue.github.io\\_draft\\rep\\", 
-    "name": "r_Wolo-Saam-Acupuncture.txt"
+    "name": "r_New-Clinical-Korean-Medicine.txt"
   },
   "note": {
   	"mark1": "줗",
@@ -23,7 +23,7 @@
   	"view": 0
   },
   "url": {
-  	"img":  "/static/img/book/Wolo-Saam-Acupuncture/"
+  	"img":  "/static/img/book/New-Clinical-Korean-Medicine/"
   },
   "del": {
   	"from": "~~~S",
@@ -33,12 +33,12 @@
   	"view": ["layout", "title", "date", "categories", "tags"],
     "toc": 1,
   	"layout": "page",
-  	"title": "월오사암오행침법",
+  	"title": "최신 임상 한방의학",
   	"date": "2016-06-24 20:14:54",
   	"modified": "",
   	"categories": "book",
-  	"description": "",
-  	"tags": "['한의학', '침구']",
+  	"description": "최신 임상 한방의학",
+  	"tags": "['한의학', '방제']",
   	"image": {
   		  "feature": "",
   		  "credit": "",
@@ -46,12 +46,12 @@
   	}
   },
   "split": {
-    "doit": 0,
+    "doit": 1,
     "mark": "쑿",
-    "title": []
+    "title": ["한방의학의 기초", "호흡기질환", "소화관질환", "간·담·췌질환", "신·비뇨기질환", "내분비질환", "대사·영양장애", "혈액·조혈기질환", "교원병", "신경·근질환", "운동기질환", "정신과질환", "피부과질환", "부인과질환"]
   },
   "node": {
     "folder": "D:\\dev\\blog\\monblue.github.io\\_apps\\_myApps",
-    "doit": "node makeMd0.js ./json/md_Wolo-Saam-Acupuncture.json"
+    "doit": "node makeMd0.js ./json/md_New-Clinical-Korean-Medicine.json"
   }
 }

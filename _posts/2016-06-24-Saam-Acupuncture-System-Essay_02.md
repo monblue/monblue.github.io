@@ -10,11 +10,9 @@ tags: "['한의학', '침구']"
 {:toc}
 
 
-
-
 # 足太陰脾經
 
-![그림](/static/img/book/Saam-Acupuncture-System-Essay/101.jpg)
+![그림](/static/img/book/Saam-Acupuncture-System-Essay/101.jpg "足太陰脾經의 순행노선")
 
 
 
